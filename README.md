@@ -59,6 +59,42 @@ A modern **Data Science + AI system** that:
 ---
 
 # 🚀 Quick Start
+<!----------------------------------- Architecture Section ----------------------------------->
+## 🏗️ System Architecture
+
+```mermaid
+graph TB
+    subgraph "Frontend Layer"
+        A[React Dashboard]
+        B[Mobile App]
+    end
+    
+    subgraph "Backend Layer"
+        C[FastAPI Server]
+        D[ML Models]
+        E[WebSocket]
+    end
+    
+    subgraph "Data Layer"
+        F[PostgreSQL]
+        G[Redis Cache]
+        H[MinIO Storage]
+    end
+    
+    subgraph "External APIs"
+        I[Weather API]
+        J[GTFS Feed]
+        K[Maps API]
+    end
+    
+    A --> C
+    B --> C
+    C --> D
+    C --> F
+    C --> G
+    D --> I
+    D --> J
+    A --> K
 
 ```bash
 git clone https://github.com/yourusername/transport-delay-forecast.git
