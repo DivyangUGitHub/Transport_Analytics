@@ -59,6 +59,12 @@ A modern **Data Science + AI system** that:
 ---
 
 # 🚀 Quick Start
+```bash
+git clone https://github.com/yourusername/transport-delay-forecast.git
+cd transport-delay-forecast
+pip install -r requirements.txt
+streamlit run src/app.py
+```
 <!----------------------------------- Architecture Section ----------------------------------->
 ## 🏗️ System Architecture
 
@@ -95,9 +101,3 @@ graph TB
     D --> I
     D --> J
     A --> K
-
-```bash
-git clone https://github.com/yourusername/transport-delay-forecast.git
-cd transport-delay-forecast
-pip install -r requirements.txt
-streamlit run src/app.py
