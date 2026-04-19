@@ -1,8 +1,6 @@
 <!----------------------------------- HEADER ----------------------------------->
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=38&duration=3000&pause=500&color=6A0DAD&center=true&vCenter=true&width=700&lines=🚇+Transport+Delay+Forecast;🤖+AI+Powered+System;📊+Data+Science+Project;🗺️+Geospatial+Analytics" />
-
 <br/>
 
 <img src="https://img.shields.io/badge/Python-3.8+-blue?style=for-the-badge&logo=python">
